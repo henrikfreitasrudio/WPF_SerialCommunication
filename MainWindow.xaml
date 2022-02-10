@@ -1,0 +1,67 @@
+﻿<Window x:Class="WPF_SerialCommunication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_SerialCommunication"
+        mc:Ignorable="d"
+        Title="Arduino Serial Communication" Height="250" Width="800">
+    <StackPanel>
+        <GroupBox Margin="5" Header="Serial Connection">
+            <Border Background="LightBlue" Padding="7" Margin="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Padding="7">Available serial port:</Label>
+                    <ComboBox Name="SerialPortNamesCmbBox" Grid.Column="1" Margin="5"></ComboBox>
+                    <Button Name="RefreshBtn" Grid.Column="2" Margin="5" Padding="7,0,7,0"
+                            Background="LightGreen" Width="100" Click="RefreshBtn_Click">Refresh</Button>
+                    <Button Name="SerialPortConnectBtn" Grid.Column="3" Margin="5" Padding="7,0,7,0" 
+                            Background="Aqua" Width="100"
+                            Click="SerialPortConnectBtn_Click">Connect</Button>
+                </Grid>
+            </Border>
+        </GroupBox>
+        <StackPanel Name="LedControlPanel" IsEnabled="False">
+            <GroupBox Header="LED" Margin="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <GroupBox Grid.Column="0" BorderThickness="1" Margin="5" Header="Switch">
+                        <Grid Background="LightBlue" Margin="5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Button Name="LedOffBtn" Background="DarkGray" Width="40" Padding="7"
+                                    Click="LedOnBtn_Click">OFF</Button>
+                            <Button Name="LedOnBtn" Width="40" Padding="7" Grid.Column="1"
+                                    Background="DarkGray" Click="LedOnBtn_Click">ON</Button>
+                        </Grid>
+                    </GroupBox>
+
+                    <GroupBox Grid.Column="1" BorderThickness="1" Margin="5" Header="Brightness">
+                        <Grid Background="LightBlue" Margin="5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Slider Name="SliderBrightness" Margin="5" Minimum="0" Maximum="255" 
+                                    TickPlacement="TopLeft" ValueChanged="SliderBrightness_ValueChanged"></Slider>
+                            <Label Name="LblSliderBrightness" Grid.Column="1" Width="40"></Label>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+    </StackPanel>
+</Window>

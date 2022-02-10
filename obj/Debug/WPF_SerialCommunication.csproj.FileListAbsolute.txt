@@ -1,0 +1,16 @@
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\bin\Debug\WPF_SerialCommunication.exe.config
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\bin\Debug\WPF_SerialCommunication.exe
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\bin\Debug\WPF_SerialCommunication.pdb
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication.csproj.AssemblyReference.cache
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication.csproj.SuggestedBindingRedirects.cache
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\MainWindow.g.cs
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\App.g.cs
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication_MarkupCompile.cache
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication_MarkupCompile.lref
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\MainWindow.baml
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication.g.resources
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication.Properties.Resources.resources
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication.csproj.GenerateResource.cache
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication.csproj.CoreCompileInputs.cache
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication.exe
+C:\Users\Henrik\Documents\00_HENRIK\Arduino\WPF\WPF_SerialCommunication\obj\Debug\WPF_SerialCommunication.pdb
